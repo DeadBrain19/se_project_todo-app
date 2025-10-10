@@ -1,17 +1,19 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This is a Simple to do app that allows you to create a todo-list with a date that it needs done
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+when you make the to-do cards it allows you to type out the name of the card and input when its due (optinal)
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+HTML
+CSS
+JavaScript
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+https://deadbrain19.github.io/se_project_todo-app/
