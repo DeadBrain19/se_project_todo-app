@@ -1,12 +1,12 @@
 class FormValidator {
-  constructor(settings, fromEl) {
+  constructor(settings, formEl) {
     this._settings = settings;
     this._inputSelector = settings.inputSelector;
     this._submitButtonSelector = settings.submitButtonSelector;
     this._errorClass = settings.errorClass;
     this._inputErrorClass = settings.inputErrorClass;
     this._inactiveButtonClass = settings.inactiveButtonClass;
-    this._formEl = fromEl;
+    this._formEl = formEl;
   }
 
   _showInputError(inputElement, errorMessage) {
@@ -73,6 +73,11 @@ class FormValidator {
       evt.preventDefault();
     });
     this._setEventListeners();
+  }
+
+  resetValidation() {
+    this._formEl.reset();
+    this._toggleButtonState(this._buttonElement);
   }
 }
 
