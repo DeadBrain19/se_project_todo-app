@@ -16,4 +16,4 @@ JavaScript
 
 This project is deployed on GitHub Pages:
 
-https://deadbrain19.github.io/se_project_todo-app/
+https://DevSethT.github.io/se_project_todo-app/
